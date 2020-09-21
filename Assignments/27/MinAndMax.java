@@ -25,9 +25,9 @@ public class MinAndMax {
     }
     public static void main(String args[]) {
   
-      //   int[] myArray = {23, 92, 56, 39, 93};
+      
       Scanner sc = new Scanner(System.in);
-      System.out.println("Enter Element");
+      System.out.println("Enter Element to Find Max And Min");
       int myArray[]  = new int[5];
       for(int i =0 ; i<5 ; i++)
       {

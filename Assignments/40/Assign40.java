@@ -12,24 +12,25 @@ import java.util.*;
 
        int score;
 
-    void set(String name , int rollno,int age,int score)
+    
+       void set(String name , int rollno,int age,int score)
 
- {
+    { 
 
-    this.name = name;
+      this.name = name;
 
-     this.rollno  = rollno;
+      this.rollno  = rollno;
 
-    this.age = age;
+      this.age = age;
 
-   this.score = score;
+      this.score = score;
 
- }
+    }  
 
            void show()
            {
                      System.out.println(name+" "+rollno+" "+age+" "+score);
-     }
+          }
 
    }
 
@@ -49,7 +50,7 @@ import java.util.*;
           Student s1[] = new Student[count];
 
          for(int i=0;i<s1.length;i++)
-   {
+      {
 
             System.out.print("\n\nEnter your name = ");
             String name = scanner.next();
@@ -61,7 +62,7 @@ import java.util.*;
             int age = scanner.nextInt();
 
             System.out.print("Enter your score = ");
-            int score = scanner.nextInt();
+            int score =+ scanner.nextInt();
 
              Student p = new Student();
 
@@ -69,7 +70,7 @@ import java.util.*;
 
               s1[i] = p;
 
-}
+        }
 
      for(int i = 0 ; i<s1.length ; i++)
 

@@ -6,6 +6,7 @@ class Person{
 		System.out.println("person job");
 	}
 }
+
 class Employee extends Person{
 	void getJob(){
 		System.out.println("employee job");
@@ -14,6 +15,7 @@ class Employee extends Person{
 		System.out.println("employee dept");
 	}
 }
+
 class EmployeeDemo19{
 	public static void main(String args[]){
 		Person ar[] = {new Employee(),new Employee()}; 

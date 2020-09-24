@@ -2,7 +2,7 @@ class Employee{
 	private int empId;
 	private String empName;
 	Employee(){		
-//		this(100,"ABC");
+		// this(100,"ABC");
 		System.out.println("no arg");
 	}
 	Employee(int empId,String empName){

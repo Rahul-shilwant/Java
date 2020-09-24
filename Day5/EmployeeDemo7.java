@@ -18,7 +18,7 @@ class Manager extends Employee{
 		this.da = da;
 	}
 	void show(){
-		super.show();
+		// super.show();
 		System.out.println(ta+" "+da);		
 	}
 }

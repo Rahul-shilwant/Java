@@ -1,9 +1,10 @@
 class Employee{
 	private int empId;
+
 	private String empName;
         void set(int empId,String empName){
 		this.empId = empId;
-		this.empName = empName
+		this.empName = empName;
 	}
 	void show(){
 		System.out.println(empId+" "+empName);

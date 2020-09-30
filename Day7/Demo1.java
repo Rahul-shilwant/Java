@@ -2,6 +2,7 @@ interface Foo{
 	default void m1(){
 		System.out.println("default inteface method");
 	}
+
 }
 class Bar implements Foo{
 	

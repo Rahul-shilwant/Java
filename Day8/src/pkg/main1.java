@@ -1,10 +1,10 @@
 package pkg;
 
-public class main {
-
-    void display()
+public class main1
+{
+    protected void display()
     {
-        System.out.println("Dsiplay method");
+        System.out.println("DIsplay method");
     }
 
 }

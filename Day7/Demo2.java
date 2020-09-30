@@ -1,5 +1,7 @@
 class Outer{
-	static class Foo{
+	
+	static class Foo
+	{
 		void m1(){
 			System.out.println("static class");
 		}

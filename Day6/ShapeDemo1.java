@@ -5,6 +5,7 @@ interface Drawable{
 	//void draw();
 	public abstract void draw();
 }
+
 abstract class Shape{
 	float ar;
 	abstract void area();
